@@ -48,7 +48,15 @@
     "Bookkeeping Services",
     "Tax Services"
   ],
-  "booking_system_current": "",
+  "booking_system_current": "Calendly, 30 minute \"Accounting & Bookkeeping Analysis\" call with Danielle Douglas: https://calendly.com/infiniteaccount/30_minute_call",
+  "booking_exception": {
+    "url": "https://calendly.com/infiniteaccount/30_minute_call",
+    "pages": [
+      "index.html"
+    ],
+    "approved": "2026-11-07, in chat, as an exception to BRIEF.md section 15",
+    "note": "The client's Calendly calendar is embedded on the home page (section #book) and loads only when a visitor scrolls near it. tools/check.mjs allows this link on these pages only."
+  },
   "brand": {
     "colour_main": "#0B2F57",
     "colour_accent": "#1E8449",

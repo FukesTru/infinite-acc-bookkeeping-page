@@ -259,6 +259,8 @@ number. Nothing else.
 purchase.
 - Prices are published so somebody knows the cost before calling. They are never paid on the site.
 Never "Buy now", "Pay now", "Add to cart", "Claim your spot", "Reserve your time" or "Checkout".
+Exception for this client only: the home page embeds the client's Calendly calendar for a 30 minute
+call, approved on 2026-11-07 (`site.json` `booking_exception`). It never takes payment.
 16. ON EVERY PAGE, WITHOUT EXCEPTION
 - No breadcrumbs and no page path anywhere on any page. Never "Home > Services", "Home / About"
 or any trail showing where the page sits in the site, not above the heading, not in the hero and

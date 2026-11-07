@@ -51,6 +51,9 @@ for (const [key, val] of [['form_embed', formEmbed], ['chat_widget', chatWidget]
 
 const DASHES = /[–—]/;
 const BOOKING_OR_PAYMENT = /(calendly|acuityscheduling|squareup|square\.site|setmore|\/widget\/booking|\/widget\/appointment|\/widget\/bookings|stripe\.com|paypal\.com|\/checkout)/i;
+// The one booking link the agency owner approved for this site, and the pages it may appear on.
+const bookingOk = String((site.booking_exception && site.booking_exception.url) || '').trim();
+const bookingPages = (site.booking_exception && site.booking_exception.pages) || [];
 const BLOCK = (name, html) => {
   const m = html.match(new RegExp(`<!-- site-${name}:start -->([\\s\\S]*?)<!-- site-${name}:end -->`));
   return m ? m[1].trim() : null;
@@ -86,6 +89,7 @@ for (const f of pages) {
   if (/breadcrumb/i.test(html)) fail(where, 'contains a breadcrumb. The header menu is the only navigation');
 
   for (const m of html.matchAll(/\b(?:src|href|action)=["']([^"']+)["']/gi)) {
+    if (bookingOk && m[1].startsWith(bookingOk) && bookingPages.includes(where)) continue;
     if (BOOKING_OR_PAYMENT.test(m[1])) fail(where, `links or embeds ${m[1]}. The site never books and never takes payment`);
   }
   if (/<input[^>]+type=["'](date|time|datetime-local)["']/i.test(html)) {

@@ -110,7 +110,15 @@
     crmCheckForms();
     ["scroll", "pointerdown", "keydown", "touchstart", "mousemove"].forEach(function (ev) { window.removeEventListener(ev, crmOpen, { passive: true }); });
   }
-  crmForms = Array.prototype.slice.call(document.querySelectorAll('template[data-crm="form"]'));
+  window.addEventListener("message", function (e) {
+    if (e.origin !== "https://calendly.com" || !e.data || e.data.event !== "calendly.page_height") return;
+    var h = parseInt(e.data.payload && e.data.payload.height, 10);
+    var frame = document.querySelector(".booking-embed iframe");
+    if (frame && h > 400) frame.style.height = h + "px";
+  });
+  /* The home page's booking calendar (Calendly, an approved exception: site.json booking_exception)
+     loads the same way as the form. */
+  crmForms = Array.prototype.slice.call(document.querySelectorAll('template[data-crm="form"], template[data-crm="booking"]'));
   if (crmForms.length || document.querySelector('template[data-crm="chat"]')) {
     ["scroll", "pointerdown", "keydown", "touchstart", "mousemove"].forEach(function (ev) { window.addEventListener(ev, crmOpen, { passive: true }); });
     window.addEventListener("load", function () { setTimeout(crmOpen, 10000); });
@@ -118,13 +126,17 @@
     /* The placeholder's button opens the form at once (for anyone who has not scrolled or tapped yet). */
     document.querySelectorAll(".form-open").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        var t = btn.closest(".form-embed").querySelector('template[data-crm="form"]');
+        var t = btn.closest(".form-embed").querySelector("template[data-crm]");
         crmOpen(); crmActivate(t);
       });
     });
     /* Anyone heading for the form gets it at once. */
     document.addEventListener("click", function (e) {
-      if (e.target.closest && e.target.closest('a[href="#contact"]')) { crmOpen(); crmForms.forEach(crmActivate); }
+      var a = e.target.closest && e.target.closest('a[href="#contact"], a[href="#book"]');
+      if (!a) return;
+      var kind = a.getAttribute("href") === "#book" ? "booking" : "form";
+      crmOpen();
+      crmForms.forEach(function (t) { if (t.getAttribute("data-crm") === kind) crmActivate(t); });
     }, true);
   }
 

@@ -14,6 +14,7 @@ One security note first. The onboarding form included the login and password for
 4. **Your Google Business Profile address.** Your Google profile still shows your old address, 6500 W College Dr, 2nd Floor, Palos Heights. If you have moved to John Humphrey Dr, please update it in your Google profile, because Google compares it with your website.
 5. **Your Google reviews.** Your 7 Google reviews (all 5 stars) are now on the Reviews page and the home page, copied word for word with each name as the client posted it. Please tell us if any client would rather not be quoted.
 6. **How long a first consultation takes.** For example, 30 minutes.
+7. **Your Calendly calendar.** Your home page now shows your Calendly calendar for the 30 minute "Accounting & Bookkeeping Analysis" call, so visitors can book a time with you directly. Please keep your available times in Calendly up to date, and tell us if visitors should book a different event. If this call is your free first consultation, tell us and we will say so next to the calendar.
 
 ## Part B. Facts please confirm or correct
 

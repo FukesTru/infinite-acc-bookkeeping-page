@@ -199,7 +199,8 @@ checks that apply to the fix.
 ## Never
 
 - Never a booking calendar, a payment, a table, a breadcrumb or a stock photo. `BRIEF.md` sections
-  15, 16 and 18.
+  15, 16 and 18. The one exception on this site: the client's Calendly calendar on the home page,
+  approved on 2026-11-07 (`site.json` `booking_exception`). Add no other booking link or calendar.
 - Never invent a fact, a price, a review, a credential or a number. Mark it [VERIFY].
 - Never an em dash or an en dash.
 - Never put a password, an API key, a token or anything secret in this repo. If the operator
