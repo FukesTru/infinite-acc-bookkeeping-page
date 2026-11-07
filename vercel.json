@@ -5,6 +5,18 @@
   "installCommand": "",
   "outputDirectory": "public",
   "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/services/bookkeeping",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/services/bookkeeping/",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",

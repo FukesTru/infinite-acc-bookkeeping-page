@@ -17,13 +17,15 @@ The website for **Infinite Accounting Services Inc**, a bookkeeping and tax firm
 | `tools/check.mjs` | The automatic checks. Run `node tools/check.mjs` before every ship. |
 | `tools/golive-check.sh` | The domain check at go-live. |
 
-## The pages (27, plus the 404 page)
+## The pages (25, plus the 404 page)
 
-- **Main pages:** home, about Danielle, what to expect, reviews, FAQ, business information and contact. There is no pricing page and no prices anywhere, at the client's request (fees are quoted after a free consultation).
-- **Services:** the services overview, bookkeeping and tax preparation.
+- **Main pages:** home (the bookkeeping page, below), about Danielle, what to expect, reviews, FAQ, business information and contact. There is no pricing page and no prices anywhere, at the client's request (fees are quoted after a free consultation).
+- **Services:** the services overview and tax preparation. Bookkeeping lives on the home page.
 - **Service areas:** the overview and 8 town pages (Orland Park, Tinley Park, Palos Heights, Palos Hills, Frankfort, Crestwood, Worth and Orland Hills).
 - **Blog:** the blog index and 4 posts.
 - **Legal:** privacy policy and terms of use.
+
+**The home page is the bookkeeping page.** It is written for established businesses and professional practices: Danielle's portrait in the hero, a numbered list of what the bookkeeping service includes, what clients receive each month, who the firm works with, Danielle and 2 Google reviews, how working together begins, tax preparation as the second service, the towns served, bookkeeping FAQs and the form. The old bookkeeping address, `/services/bookkeeping/`, redirects permanently to the home page (`vercel.json` `redirects`), and every link on the site that went there now goes to `/`.
 
 Every page has its own title, description and canonical. Each also has Open Graph tags, the business structured data, a contact form, a text link, and a closing call to action. Pages with FAQs carry FAQ structured data.
 
@@ -45,7 +47,7 @@ Tested with Lighthouse (the engine behind PageSpeed Insights) on every page, pho
 2. **Vercel.** Import this repo as a new Vercel project. Then fill in `vercel_project` and `preview_url` in `site.json`.
 3. **The client's answers** in `VERIFY.md`. Every [VERIFY] on the site is listed by `node tools/check.mjs --missing`.
 4. **Reviews.** The Google reviews in `site.json` `reviews` were copied word for word from the client's Google Business Profile on 2026-10-17 (7 reviews, all 5 stars; 5 with written text are shown). Refresh them before go-live and whenever new ones arrive, then rebuild.
-5. **Photos.** 27 of the Higgsfield photos are on the site, listed with their places in `IMAGE-PROMPTS.md`. The client still has to approve them (`VERIFY.md`).
+5. **Photos.** 22 of the Higgsfield photos are on the site, listed with their places in `IMAGE-PROMPTS.md`. The client still has to approve them (`VERIFY.md`).
 6. **Security.** The onboarding form contained a domain login in plain text. It is not stored anywhere in this repo. The client should change that password.
 
 `site.json` `domain` is already set to `www.infiniteaccountingservices.com`, so every canonical, Open Graph and sitemap address uses it. Preview deployments on `*.vercel.app` are kept out of Google by the noindex header in `vercel.json`.

@@ -633,3 +633,36 @@ strong { font-weight: 650; }
 /* Danielle's portrait photo, in the same 4 by 5 frame as the placeholder it replaced. */
 .portrait--photo { display: block; padding: 0; overflow: hidden; background: var(--mist); box-shadow: var(--shadow); }
 .portrait--photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; }
+/* ---------- bookkeeping home page ----------
+   The home page leads with bookkeeping for established businesses. Danielle's portrait carries the
+   hero; a quiet proof row sits under it; the services read as a numbered list, like a ledger. */
+.hero-media--portrait { position: relative; margin: 0; width: 100%; max-width: 440px; }
+.hero--split .hero-media--portrait img { aspect-ratio: 4 / 5; object-position: 50% 18%; }
+.hero-media--portrait figcaption { position: absolute; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; gap: 4px; padding: 64px 24px 22px; background: linear-gradient(to top, rgba(8, 35, 64, 0.9), rgba(8, 35, 64, 0)); color: var(--white); }
+.hero-media--portrait .name { font-family: var(--font-head); font-size: 22px; font-weight: 700; line-height: 1.1; }
+.hero-media--portrait .role { font-size: 12px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--on-dark-muted); }
+@media (max-width: 1023px) { .hero--split .hero-media--portrait { max-width: 400px; } }
+@media (min-width: 1024px) {
+  .hero--home .wrap { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); }
+  .hero--split .hero-media--portrait { justify-self: end; }
+}
+.proof-row { list-style: none; display: grid; gap: 28px; }
+@media (min-width: 720px) { .proof-row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 48px; } }
+@media (min-width: 1024px) {
+  .proof-row { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; }
+  .proof-row li { padding: 2px 28px; border-left: var(--border); }
+  .proof-row li:first-child { padding-left: 0; border-left: 0; }
+  .proof-row li:last-child { padding-right: 0; }
+}
+.proof-label { display: flex; align-items: center; gap: 10px; font-family: var(--font-head); font-size: 20px; font-weight: 600; line-height: 1.25; color: var(--navy); margin-bottom: 8px; }
+.proof-label .icon { width: 22px; height: 22px; color: var(--green-dark); }
+.proof-row p:not(.proof-label) { color: var(--muted); font-size: 16px; line-height: 1.6; }
+.ledger { list-style: none; counter-reset: ledger; display: grid; border-top: var(--border); }
+@media (min-width: 900px) { .ledger { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 64px; } }
+.ledger li { counter-increment: ledger; display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 16px; padding: 28px 0; border-bottom: var(--border); }
+.ledger li::before { content: counter(ledger, decimal-leading-zero); font-family: var(--font-head); font-size: 22px; font-weight: 600; line-height: 1.3; color: var(--blue); }
+.ledger h3 { margin-bottom: 8px; }
+.ledger p { color: var(--muted); }
+.photo-frame--tall img { aspect-ratio: 4 / 5; }
+@media (max-width: 1023px) { .photo-frame--tall img { aspect-ratio: 16 / 9; } }
+.stack > .review-card + .review-card { margin-top: 20px; }

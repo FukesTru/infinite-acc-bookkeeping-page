@@ -26,7 +26,12 @@ One security note first. The onboarding form included the login and password for
 
 ### Home page
 
-- That Infinite Accounting Services Inc was incorporated in Illinois in 2018. The site says "serving clients since 2018".
+Your home page is now your bookkeeping page, written for established businesses and professional practices. Please read it once with that in mind.
+
+- That Infinite Accounting Services Inc was incorporated in Illinois in 2018. The site says "serving the southwest suburbs since 2018".
+- **Who you keep books for.** The home page lists professional practices, established owner-run businesses, contractors and trade firms, and **owners with more than one company**. Please confirm you keep separate books for owners with several businesses, or tell us to remove it.
+- That you have worked in the accounting industry for about 20 years. The home page says so as well as the About page.
+- That you personally lead every client relationship. The home page describes the firm as small and owner-run, led by you.
 
 ### About page
 
