@@ -1,0 +1,251 @@
+{
+  "business": {
+    "name": "Infinite Accounting Services",
+    "known_as": "Infinite Accounting",
+    "legal_name": "Infinite Accounting Services Inc",
+    "owner": "Danielle Douglas",
+    "owner_title": "President",
+    "founded": "2018",
+    "trade": "bookkeeping and tax firm",
+    "street": "14475 John Humphrey Dr, Ste 150",
+    "city": "Orland Park",
+    "state": "IL",
+    "postal_code": "60462",
+    "country": "US",
+    "phone": "(708) 232-3003",
+    "phone_accepts_texts": true,
+    "email": "danielle@infiniteaccountingservices.com",
+    "website_current": "https://www.infiniteaccountingservices.com",
+    "timezone": "America/Chicago"
+  },
+  "online": {
+    "facebook": "https://www.facebook.com/AccountingPlans4U/",
+    "instagram": "https://www.instagram.com/infiniteaccounting/",
+    "google_business_profile": "https://www.google.com/maps/search/?api=1&query=Infinite%20Accounting%20Services&query_place_id=ChIJXeUzGc8ZDogR_gWHfIU-yYE",
+    "google_review_link": ""
+  },
+  "hours": {
+    "monday": "9 am to 3 pm",
+    "tuesday": "9 am to 3 pm",
+    "wednesday": "By appointment",
+    "thursday": "9 am to 3 pm",
+    "friday": "9 am to 3 pm",
+    "saturday": "Closed",
+    "sunday": "Closed",
+    "source": "Current website. MapQuest lists 9 am to 2 pm with Wednesday closed. Client to confirm (VERIFY.md)."
+  },
+  "areas_served": [
+    "Orland Park",
+    "Tinley Park",
+    "Palos Heights",
+    "Palos Hills",
+    "Frankfort",
+    "Crestwood",
+    "Worth",
+    "Orland Hills"
+  ],
+  "services": [
+    "Bookkeeping Services",
+    "Tax Services"
+  ],
+  "booking_system_current": "",
+  "brand": {
+    "colour_main": "#0B2F57",
+    "colour_accent": "#1E8449",
+    "colours_other": [
+      "#1D5FA8",
+      "#E8F5EC",
+      "#F4F8FB",
+      "#082340"
+    ],
+    "font": "League Spartan (headings, as on the current site) and Inter (body)",
+    "notes": "Blue and Green. Logo received as a small image (297 by 150 pixels); a larger copy is requested in VERIFY.md."
+  },
+  "images": [
+    {
+      "file": "images/logo-primary.png",
+      "note": "Client logo: blue ribbon infinity mark above INFINITE in black and ACCOUNTING SERVICES, INC. in blue, white background removed. Header and share image. Source is small (297 by 150 pixels); a larger copy is requested in VERIFY.md."
+    },
+    {
+      "file": "images/logo-reversed.png",
+      "note": "Client logo with the lettering turned white, made by us from the logo above for the navy footer. Ask the client if they have an official version for dark backgrounds."
+    },
+    {
+      "file": "images/logo-icon.png",
+      "note": "Ribbon infinity symbol cut from the client logo. Favicon and phone home-screen icon."
+    },
+    {
+      "file": "images/photo-danielle-douglas-1200.webp",
+      "note": "Client photo: studio portrait of Danielle Douglas in a black blazer on a grey background, sent by the client on 2026-10-20. About page and home page owner sections."
+    },
+    {
+      "file": "images/ai-desk-against-navy-wall-2000.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Desk by a bright window with a navy notebook, a pen, a closed laptop and a plant, against a navy wall. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-reconciling-bank-statements-1200.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Hands reconciling bank statements with a calculator and laptop beside neatly stacked folders. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-tax-documents-blue-folder-1200.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Organized tax documents in a blue folder with a pen, reading glasses and calculator on a clean desk. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-suburban-main-street-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Tree-lined suburban main street with brick storefronts on a bright day in the southwest suburbs. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-meeting-table-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Welcoming small office with a round meeting table, two chairs and a notebook in soft window light. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-planner-and-tablet-1200.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Desk with a planner, pen, tablet and mug set up for a client meeting. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-desk-flat-lay-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Overhead view of a laptop, calculator, notebook and navy and green folders on a white desk. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-laptop-ledger-and-receipts-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Laptop showing a bookkeeping ledger beside receipts and a calculator on a bright desk. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-sorting-receipts-into-folders-1200.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Hands sorting receipts into labeled folders next to a computer mouse. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-shop-owner-with-receipts-1200.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Small-business owner at a shop counter with a laptop and a box of receipts to organize. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-tax-papers-and-calculator-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Desk with a stack of tax papers, a calculator, pen and blue folder during tax season. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-paperwork-checklist-1200.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Paperwork, envelopes and a pen laid out like a checklist of tax documents. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-signing-documents-1200.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Business owner signing a document across a meeting table during a tax review. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-aerial-suburbs-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Aerial view of leafy suburban neighborhoods and a small commercial street at golden hour. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-downtown-train-platform-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Suburban downtown street with small shops and a commuter train platform in the distance. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-lakeside-walking-path-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Peaceful lakeside walking path lined with mature trees in early autumn light. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-home-office-at-dusk-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Quiet residential street at dusk with a home office window glowing and a laptop on the desk. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-historic-downtown-square-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Historic small-town downtown with brick storefronts, boutique awnings and a green village square. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-shops-and-contractor-truck-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Row of independent neighborhood shops with a contractor's pickup truck parked outside. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-neighborhood-park-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Family-friendly neighborhood park with a curving path and shade trees. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-cul-de-sac-home-office-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Calm suburban cul-de-sac with a home office visible through a front window. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-coffee-mugs-and-notebook-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Two coffee mugs beside an open notebook on a table in soft window light. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-writing-desk-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Writing desk with an open notebook, laptop and small plant in daylight. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-checklist-notepad-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Bookkeeping checklist notepad with green check marks next to a pen and laptop. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-receipts-and-invoices-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Receipts and invoices organized in a box and folder for business tax preparation. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-dashboard-and-paper-ledger-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Laptop accounting dashboard beside a handwritten paper ledger. Client approval pending (VERIFY.md)."
+    },
+    {
+      "file": "images/ai-opened-letter-1600.webp",
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Opened envelope and letter on a calm, tidy desk with a pen and cup of tea. Client approval pending (VERIFY.md)."
+    }
+  ],
+  "must_keep": "",
+  "integrations": {
+    "form_embed": "<iframe\n    src=\"https://api.leadconnectorhq.com/widget/form/f8GAwSFoA128pHXFEayv\"\n    style=\"width:100%;height:100%;border:none;border-radius:10px\"\n    id=\"inline-f8GAwSFoA128pHXFEayv\"\n    data-layout=\"{'id':'INLINE'}\"\n    data-trigger-type=\"alwaysShow\"\n    data-trigger-value=\"\"\n    data-activation-type=\"alwaysActivated\"\n    data-activation-value=\"\"\n    data-deactivation-type=\"neverDeactivate\"\n    data-deactivation-value=\"\"\n    data-form-name=\"Website Form (INFINITE ACCOUNTING SERVICES INC)\"\n    data-height=\"540\"\n    data-layout-iframe-id=\"inline-f8GAwSFoA128pHXFEayv\"\n    data-form-id=\"f8GAwSFoA128pHXFEayv\"\n    data-cookie-consent=\"true\"\n    data-cookie-consent-provider=\"auto\"\n    title=\"Website Form (INFINITE ACCOUNTING SERVICES INC)\"\n    \n        >\n</iframe>\n<script src=\"https://link.msgsndr.com/js/form_embed.js\"></script>",
+    "chat_widget": "<script src=\"https://widgets.leadconnectorhq.com/loader.js\" data-resources-url=\"https://widgets.leadconnectorhq.com/chat-widget/loader.js\" data-widget-id=\"6ad282f7f56fd8562efd9cd5\"></script>",
+    "review_link": "https://review.strain-systems.com/infinite-accounting"
+  },
+  "crm_location_id": "",
+  "vercel_project": "",
+  "preview_url": "",
+  "domain": "www.infiniteaccountingservices.com",
+  "reviews": {
+    "source": "Google Business Profile (place ID ChIJXeUzGc8ZDogR_gWHfIU-yYE)",
+    "fetched": "2026-10-17",
+    "rating": 5,
+    "count": 7,
+    "note": "Copied word for word with each name as posted. Only reviews with written text are shown; two clients left 5 stars without text. Refresh from Google before go-live and whenever new reviews arrive.",
+    "items": [
+      {
+        "author": "Ravi Sharma",
+        "rating": 5,
+        "date": "2024-08-21",
+        "text": "Danielle laid out a clear scope and was very professional throughout the engagement. She went above and beyond. I will be sure to consider for any future help. Highly recommended!"
+      },
+      {
+        "author": "Rhonda",
+        "rating": 5,
+        "date": "2022-07-07",
+        "text": "I have worked with Infinite Accounting Services for the last 2 years. Danielle is very through and keeps me informed.  She is always knowledgeable regarding my financial questions. I highly recommend Infinite Accounting Services not only for your taxes but for your entire financial purposes.  Danielle offers bookkeeping services for businesses too."
+      },
+      {
+        "author": "Naomi Elsner",
+        "rating": 5,
+        "date": "2021-04-22",
+        "text": "I was fortunate to find Danielle to do my 2019 taxes last year. I trusted her to do them again for my 2020 taxes this year. She is  knowledgeable, professional, and very thorough. I highly recommend her for anyone's tax preparation needs."
+      },
+      {
+        "author": "she cooks",
+        "rating": 5,
+        "date": "2021-04-22",
+        "text": "Cannot recommend Danielle highly enough- responsive, patient, professional, very reasonably priced and just generally easy to work with. Filing my taxes has never been easier."
+      },
+      {
+        "author": "Seth Gilmore",
+        "rating": 5,
+        "date": "2021-04-22",
+        "text": "I'm always thoroughly satisfied with the prompt and professional services I receive from Infinite Accounting Srvcs!"
+      },
+      {
+        "author": "Wael Abbas",
+        "rating": 5,
+        "date": "2024-01-13",
+        "text": null
+      },
+      {
+        "author": "amber ruffin",
+        "rating": 5,
+        "date": "2021-04-22",
+        "text": null
+      }
+    ]
+  }
+}
