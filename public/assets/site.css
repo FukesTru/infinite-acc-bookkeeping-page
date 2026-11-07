@@ -680,3 +680,5 @@ strong { font-weight: 650; }
 /* Home hero: "Book a call" is the green button beside the phone button. */
 .btn-book { background: var(--green); color: var(--white); }
 .btn-book:hover { background: var(--green-dark); color: var(--white); }
+/* The home heading is long, so on phones it steps down a little to stay on 3 lines. */
+@media (max-width: 639px) { .hero--home h1 { font-size: 34px; } }

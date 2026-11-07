@@ -27,10 +27,13 @@ One security note first. The onboarding form included the login and password for
 
 ### Home page
 
-Your home page is now your bookkeeping page, written for established businesses and professional practices. Please read it once with that in mind.
+Your home page now promotes your bookkeeping cleanup and ongoing monthly accounting to healthcare and mental health practices across the United States, particularly practices earning $1 million or more a year. Please read it once with that in mind.
 
-- That Infinite Accounting Services Inc was incorporated in Illinois in 2018. The site says "serving the southwest suburbs since 2018".
-- **Who you keep books for.** The home page lists professional practices, established owner-run businesses, contractors and trade firms, and **owners with more than one company**. Please confirm you keep separate books for owners with several businesses, or tell us to remove it.
+- That Infinite Accounting Services Inc was incorporated in Illinois in 2018. The site says "serving clients since 2018".
+- **Nationwide.** That you work with practices in any state, by phone, video call and email.
+- **Practice types.** The home page lists medical and specialty practices, mental health group practices, dental and allied health clinics, and **practices with more than one location**. Please confirm you keep separate books for each location or company, or tell us to remove it.
+- **Clinician pay.** That you record payroll for staff and clinicians, whether they are employees or contractors.
+- **Patient information.** The site tells visitors never to send patient information through the form or by email, and says bookkeeping works from bank, card and payroll records and accounting software. It makes no HIPAA claims. If you sign business associate agreements with practices, or have a secure way to receive reports that include patient details, tell us and we can say so.
 - That you have worked in the accounting industry for about 20 years. The home page says so as well as the About page.
 - That you personally lead every client relationship. The home page describes the firm as small and owner-run, led by you.
 

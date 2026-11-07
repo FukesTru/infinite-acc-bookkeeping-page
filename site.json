@@ -44,6 +44,14 @@
     "Worth",
     "Orland Hills"
   ],
+  "market": {
+    "focus": "Healthcare and mental health practices across the United States, particularly practices earning $1 million or more a year",
+    "offers": [
+      "Bookkeeping cleanup",
+      "Ongoing monthly bookkeeping and accounting"
+    ],
+    "source": "Operator, in chat, 2026-11-07. The home page is written for this market; areas_served stays the local towns near the office."
+  },
   "services": [
     "Bookkeeping Services",
     "Tax Services"
@@ -92,7 +100,7 @@
     },
     {
       "file": "images/ai-reconciling-bank-statements-1200.webp",
-      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Hands reconciling bank statements with a calculator and laptop beside neatly stacked folders. Client approval pending (VERIFY.md)."
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Hands reconciling bank statements with a calculator and laptop beside neatly stacked folders. Home page, bookkeeping cleanup section. Client approval pending (VERIFY.md)."
     },
     {
       "file": "images/ai-tax-documents-blue-folder-1200.webp",
