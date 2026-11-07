@@ -677,3 +677,6 @@ strong { font-weight: 650; }
 .booking-embed { min-height: 1100px; scroll-margin-top: calc(var(--header-h) + 16px); }
 .booking-embed iframe { display: block; width: 100%; height: 1100px; border: 0; }
 .booking-embed .form-loading { padding-top: 120px; }
+/* Home hero: "Book a call" is the green button beside the phone button. */
+.btn-book { background: var(--green); color: var(--white); }
+.btn-book:hover { background: var(--green-dark); color: var(--white); }
