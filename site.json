@@ -50,7 +50,7 @@
       "Bookkeeping cleanup",
       "Ongoing monthly bookkeeping and accounting"
     ],
-    "source": "Operator, in chat, 2026-11-07. The home page is written for this market; areas_served stays the local towns near the office."
+    "source": "Operator, in chat, 2026-11-07. The bookkeeping page (/services/bookkeeping/) is written for this market; the home page and areas_served stay local."
   },
   "services": [
     "Bookkeeping Services",
@@ -60,10 +60,10 @@
   "booking_exception": {
     "url": "https://calendly.com/infiniteaccount/30_minute_call",
     "pages": [
-      "index.html"
+      "services/bookkeeping/index.html"
     ],
     "approved": "2026-11-07, in chat, as an exception to BRIEF.md section 15",
-    "note": "The client's Calendly calendar is embedded on the home page (section #book) and loads only when a visitor scrolls near it. tools/check.mjs allows this link on these pages only."
+    "note": "The client's Calendly calendar is embedded on the bookkeeping page, /services/bookkeeping/ (section #book), and loads only when a visitor scrolls near it. tools/check.mjs allows this link on these pages only."
   },
   "brand": {
     "colour_main": "#0B2F57",
@@ -92,15 +92,15 @@
     },
     {
       "file": "images/photo-danielle-douglas-1200.webp",
-      "note": "Client photo: studio portrait of Danielle Douglas in a black blazer on a grey background, sent by the client on 2026-10-20. Home page hero and About page."
+      "note": "Client photo: studio portrait of Danielle Douglas in a black blazer on a grey background, sent by the client on 2026-10-20. Bookkeeping page hero, home page owner section and About page."
     },
     {
       "file": "images/ai-desk-against-navy-wall-2000.webp",
-      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Desk by a bright window with a navy notebook, a pen, a closed laptop and a plant, against a navy wall. Not used since the home page became the bookkeeping page. Client approval pending (VERIFY.md)."
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Desk by a bright window with a navy notebook, a pen, a closed laptop and a plant, against a navy wall. Full-width background behind the home page's top section. Client approval pending (VERIFY.md)."
     },
     {
       "file": "images/ai-reconciling-bank-statements-1200.webp",
-      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Hands reconciling bank statements with a calculator and laptop beside neatly stacked folders. Home page, bookkeeping cleanup section. Client approval pending (VERIFY.md)."
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Hands reconciling bank statements with a calculator and laptop beside neatly stacked folders. Home page bookkeeping card and bookkeeping page cleanup section. Client approval pending (VERIFY.md)."
     },
     {
       "file": "images/ai-tax-documents-blue-folder-1200.webp",
