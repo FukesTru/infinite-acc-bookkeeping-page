@@ -681,4 +681,6 @@ strong { font-weight: 650; }
 .btn-book { background: var(--green); color: var(--white); }
 .btn-book:hover { background: var(--green-dark); color: var(--white); }
 /* The home heading is long, so on phones it steps down a little to stay on 3 lines. */
-@media (max-width: 639px) { .hero--home h1 { font-size: 34px; } }
+@media (max-width: 639px) { .hero--home h1, .hero--long h1 { font-size: 34px; } }
+/* Bespoke Services: the Part 1 and Part 2 labels on the engagement cards. */
+.card .tag { align-self: flex-start; margin-bottom: 14px; }

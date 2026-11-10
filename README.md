@@ -17,15 +17,17 @@ The website for **Infinite Accounting Services Inc**, a bookkeeping and tax firm
 | `tools/check.mjs` | The automatic checks. Run `node tools/check.mjs` before every ship. |
 | `tools/golive-check.sh` | The domain check at go-live. |
 
-## The pages (26, plus the 404 page)
+## The pages (27, plus the 404 page)
 
 - **Main pages:** home, about Danielle, what to expect, reviews, FAQ, business information and contact. There is no pricing page and no prices anywhere, at the client's request (fees are quoted after a free consultation).
-- **Services:** the services overview, bookkeeping (below) and tax preparation.
+- **Services:** the services overview, bookkeeping (below), Bespoke Services (below) and tax preparation.
 - **Service areas:** the overview and 8 town pages (Orland Park, Tinley Park, Palos Heights, Palos Hills, Frankfort, Crestwood, Worth and Orland Hills).
 - **Blog:** the blog index and 4 posts.
 - **Legal:** privacy policy and terms of use.
 
 **The bookkeeping page** (`/services/bookkeeping/`) promotes bookkeeping cleanup and ongoing monthly accounting to healthcare and mental health practices across the United States, particularly practices earning $1 million or more a year (the operator's brief, 2026-11-07). In order: Danielle's portrait in the hero with Call and Book a call, a proof row, the problems practices call about, the cleanup offer, a numbered list of what monthly accounting includes, the practice types it is built for, Danielle with 2 Google reviews, how working together begins, the booking calendar, tax preparation as the second service, a nationwide answer with the local towns, FAQs and the form. It makes no HIPAA claims and asks visitors never to send patient information. It also embeds the client's Calendly calendar (section `#book`, linked from its Book a call buttons), an exception to the brief's no-booking rule approved on 2026-11-07 and recorded in `site.json` `booking_exception`. Like the form, the calendar loads only when a visitor scrolls near it or heads for it. The home page is the original firm-wide home page.
+
+**Bespoke Services** (`/services/bespoke-services/`, added 2026-11-10) is a second page for the same market, written in different words so the two pages do not repeat each other. It presents a tailored 2 part engagement (a bookkeeping cleanup, then ongoing monthly accounting), how each engagement is tailored, who it suits, Danielle as the engagement lead with 1 Google review, the first steps, the Calendly calendar, FAQs and the form. It is in the Services menu, the footer and the services overview.
 
 Every page has its own title, description and canonical. Each also has Open Graph tags, the business structured data, a contact form, a text link, and a closing call to action. Pages with FAQs carry FAQ structured data.
 
@@ -47,7 +49,7 @@ Tested with Lighthouse (the engine behind PageSpeed Insights) on every page, pho
 2. **Vercel.** Import this repo as a new Vercel project. Then fill in `vercel_project` and `preview_url` in `site.json`.
 3. **The client's answers** in `VERIFY.md`. Every [VERIFY] on the site is listed by `node tools/check.mjs --missing`.
 4. **Reviews.** The Google reviews in `site.json` `reviews` were copied word for word from the client's Google Business Profile on 2026-10-17 (7 reviews, all 5 stars; 5 with written text are shown). Refresh them before go-live and whenever new ones arrive, then rebuild.
-5. **Photos.** 24 of the Higgsfield photos are on the site, listed with their places in `IMAGE-PROMPTS.md`. The client still has to approve them (`VERIFY.md`).
+5. **Photos.** 26 of the Higgsfield photos are on the site, listed with their places in `IMAGE-PROMPTS.md`. The client still has to approve them (`VERIFY.md`).
 6. **Security.** The onboarding form contained a domain login in plain text. It is not stored anywhere in this repo. The client should change that password.
 
 `site.json` `domain` is already set to `www.infiniteaccountingservices.com`, so every canonical, Open Graph and sitemap address uses it. Preview deployments on `*.vercel.app` are kept out of Google by the noindex header in `vercel.json`.

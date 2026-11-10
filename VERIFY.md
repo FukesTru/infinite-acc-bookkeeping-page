@@ -14,7 +14,7 @@ One security note first. The onboarding form included the login and password for
 4. **Your Google Business Profile address.** Your Google profile still shows your old address, 6500 W College Dr, 2nd Floor, Palos Heights. If you have moved to John Humphrey Dr, please update it in your Google profile, because Google compares it with your website.
 5. **Your Google reviews.** Your 7 Google reviews (all 5 stars) are now on the Reviews page and the home page, copied word for word with each name as the client posted it. Please tell us if any client would rather not be quoted.
 6. **How long a first consultation takes.** For example, 30 minutes.
-7. **Your Calendly calendar.** Your bookkeeping page now shows your Calendly calendar for the 30 minute "Accounting & Bookkeeping Analysis" call, so visitors can book a time with you directly. Please keep your available times in Calendly up to date, and tell us if visitors should book a different event. If this call is your free first consultation, tell us and we will say so next to the calendar.
+7. **Your Calendly calendar.** Your bookkeeping page and your new Bespoke Services page now show your Calendly calendar for the 30 minute "Accounting & Bookkeeping Analysis" call, so visitors can book a time with you directly. Please keep your available times in Calendly up to date, and tell us if visitors should book a different event. If this call is your free first consultation, tell us and we will say so next to the calendar.
 
 ## Part B. Facts please confirm or correct
 
@@ -39,6 +39,15 @@ Your bookkeeping page now promotes your bookkeeping cleanup and ongoing monthly 
 - **Patient information.** The site tells visitors never to send patient information through the form or by email, and says bookkeeping works from bank, card and payroll records and accounting software. It makes no HIPAA claims. If you sign business associate agreements with practices, or have a secure way to receive reports that include patient details, tell us and we can say so.
 - That you have worked in the accounting industry for about 20 years. The bookkeeping page says so as well as the About page.
 - That you personally lead every client relationship. The bookkeeping page describes the firm as small and owner-run, led by you.
+
+### Bespoke Services page
+
+This is a new page, at /services/bespoke-services/, presenting tailored engagements for healthcare and mental health practices: a bookkeeping cleanup first, then ongoing monthly accounting. Please read it once.
+
+- **The name and the offer.** That "Bespoke Services" is the name you want, and that every engagement starts with a cleanup and moves to monthly accounting.
+- **What gets tailored.** The page says each engagement is agreed on schedule (monthly, or quarterly for fewer transactions), software, structure (separate books for each location or company), team (pay for staff and clinicians, employees or contractors), reports, and scope and fee. Please confirm each one.
+- **You lead every engagement.** The page says every Bespoke Services engagement is led by you.
+- **Smaller practices.** The page invites practices under $1 million a year to book a call anyway, and says you will tell them which service fits.
 
 ### About page
 

@@ -50,20 +50,22 @@
       "Bookkeeping cleanup",
       "Ongoing monthly bookkeeping and accounting"
     ],
-    "source": "Operator, in chat, 2026-11-07. The bookkeeping page (/services/bookkeeping/) is written for this market; the home page and areas_served stay local."
+    "source": "Operator, in chat, 2026-11-07 and 2026-11-10. The bookkeeping page (/services/bookkeeping/) and the Bespoke Services page (/services/bespoke-services/) are written for this market; the home page and areas_served stay local."
   },
   "services": [
     "Bookkeeping Services",
+    "Bespoke Services",
     "Tax Services"
   ],
   "booking_system_current": "Calendly, 30 minute \"Accounting & Bookkeeping Analysis\" call with Danielle Douglas: https://calendly.com/infiniteaccount/30_minute_call",
   "booking_exception": {
     "url": "https://calendly.com/infiniteaccount/30_minute_call",
     "pages": [
-      "services/bookkeeping/index.html"
+      "services/bookkeeping/index.html",
+      "services/bespoke-services/index.html"
     ],
-    "approved": "2026-11-07, in chat, as an exception to BRIEF.md section 15",
-    "note": "The client's Calendly calendar is embedded on the bookkeeping page, /services/bookkeeping/ (section #book), and loads only when a visitor scrolls near it. tools/check.mjs allows this link on these pages only."
+    "approved": "2026-11-07 (bookkeeping page) and 2026-11-10 (Bespoke Services page), in chat, as an exception to BRIEF.md section 15",
+    "note": "The client's Calendly calendar is embedded on the bookkeeping page (/services/bookkeeping/) and the Bespoke Services page (/services/bespoke-services/), section #book on each, and loads only when a visitor scrolls near it. tools/check.mjs allows this link on these pages only."
   },
   "brand": {
     "colour_main": "#0B2F57",
@@ -92,7 +94,7 @@
     },
     {
       "file": "images/photo-danielle-douglas-1200.webp",
-      "note": "Client photo: studio portrait of Danielle Douglas in a black blazer on a grey background, sent by the client on 2026-10-20. Bookkeeping page hero, home page owner section and About page."
+      "note": "Client photo: studio portrait of Danielle Douglas in a black blazer on a grey background, sent by the client on 2026-10-20. Bookkeeping page hero, home page owner section and About page. Bespoke Services engagement lead section."
     },
     {
       "file": "images/ai-desk-against-navy-wall-2000.webp",
@@ -124,11 +126,11 @@
     },
     {
       "file": "images/ai-laptop-ledger-and-receipts-1600.webp",
-      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Laptop showing a bookkeeping ledger beside receipts and a calculator on a bright desk. Client approval pending (VERIFY.md)."
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Laptop showing a bookkeeping ledger beside receipts and a calculator on a bright desk. Client approval pending (VERIFY.md). Bespoke Services monthly accounting card."
     },
     {
       "file": "images/ai-sorting-receipts-into-folders-1200.webp",
-      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Hands sorting receipts into labeled folders next to a computer mouse. Client approval pending (VERIFY.md)."
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Hands sorting receipts into labeled folders next to a computer mouse. Client approval pending (VERIFY.md). Bespoke Services cleanup card."
     },
     {
       "file": "images/ai-shop-owner-with-receipts-1200.webp",
@@ -196,7 +198,7 @@
     },
     {
       "file": "images/ai-dashboard-and-paper-ledger-1600.webp",
-      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Laptop accounting dashboard beside a handwritten paper ledger. Client approval pending (VERIFY.md)."
+      "note": "AI-generated with Higgsfield, not a photo of the firm or its office. Laptop accounting dashboard beside a handwritten paper ledger. Client approval pending (VERIFY.md). Bespoke Services hero."
     },
     {
       "file": "images/ai-opened-letter-1600.webp",
